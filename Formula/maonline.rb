@@ -1,7 +1,6 @@
 class Maonline < Formula
   desc "Command-line interface for M&A Online"
   homepage "https://github.com/strikegroup/maonline_cli"
-  version "0.0.0"
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/strikegroup/maonline_cli/releases/download/v0.0.0/maonline-v0.0.0-aarch64-apple-darwin.tar.gz"
