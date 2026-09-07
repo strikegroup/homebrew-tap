@@ -1,25 +1,25 @@
 class Edinet < Formula
   desc "A command-line interface for EDINET."
   homepage "https://github.com/strikegroup/edinet_cli"
-  version "0.0.2"
+  version "0.0.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.2/edinet_cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f02f321facc53b66206587b30ad3278292330e7d08c5d05715822f203a015ffa"
+      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.3/edinet_cli-aarch64-apple-darwin.tar.xz"
+      sha256 "95c779dfa0479744f9c0dd5ce05bca324f70378315422e760b4e9c6e0bebfbb2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.2/edinet_cli-x86_64-apple-darwin.tar.xz"
-      sha256 "3d41c6804b30186183b6fd5d5e3294e29878116b0a87e135571b892aae1dd41c"
+      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.3/edinet_cli-x86_64-apple-darwin.tar.xz"
+      sha256 "d23c3b0d47dfebaff2a422dcdc8a411f0d90db7eefe34438a19721ee5440a5ef"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.2/edinet_cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a6804d66c89a0f7913f07a916c295a86e836eaff58f7df52c70ebd8fb447c846"
+      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.3/edinet_cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "60d2606b4976220276cfd9fdc63a3bbf6ce46124e1dc09ebe7af8fc1cc34364c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.2/edinet_cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "11a97375fe8d0fb97f3ea1558bdbf22207dad23ea432aa1c23b16b9e64ff6542"
+      url "https://github.com/strikegroup/edinet_cli/releases/download/v0.0.3/edinet_cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2fbb44a7753b43c9057c7c98fae3b373190be1c1265f7d8251c82e5da797cfbd"
     end
   end
   license "Apache-2.0"
